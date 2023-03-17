@@ -1,0 +1,126 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+    background: #fcfcfc;
+    padding: 0;
+    margin: 0;
+}
+
+.parent-container{
+    background: #ffff;
+    padding: 50px 42px;
+    margin: 5% 8%;
+}
+.header p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: #595959;
+}
+.header img{
+display: block;
+    text-align: center;
+margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+table{
+   margin: 10px 0px 12px 12px; /* top bottom right left/*/
+    font-size: 12px;
+    /*color: #0000;*/
+
+
+}
+
+h5{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+input{
+    margin-top: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px dashed  #c7c7c7c7;
+    font-size: 14px;
+    font-width: 500;
+    font-family: 'Verdana';
+}
+.column-pin input {
+    margin-top: 2px;
+
+    border: 2px solid #c7c7c7c7;
+    font-size: 14px;
+    font-width: 500;
+    font-family: 'Verdana';
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+}
+
+.grid-container > div {
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    text-align: left;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+p{
+    font-size:  15px;
+}
+ol{
+    margin: 5px 0;
+}
+ul li{
+    padding: 8px 2px;
+}
+.parent-container .export-buttons{
+    display:  flex;
+    flex-direction: row;
+    margin:15px 8px;
+    text-align: left;
+
+}
+.parent-container .export-buttons button{
+    border:0;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px 10px;
+    padding: 12px 15px;
+    transition: all .25s ease-in-out;
+    border-radius : 12px;
+
+}
+.parent-container .export-buttons a{
+    border:0;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px 10px;
+    padding: 12px 15px;
+    transition: all .25s ease-in-out;
+    border-radius : 12px;
+
+}
+.parent-container .export-buttons .excel{
+    color: #ffff;
+    background: #2ca02c;
+}.parent-container .export-buttons .pdf{
+    color: #ffff;
+    background: #058c9d;
+}
+ .parent-container .export-buttons .excel:hover{
+     background: #0b790b;
+ } .parent-container .export-buttons .pdf:hover{
+     background: #005964;
+ }
